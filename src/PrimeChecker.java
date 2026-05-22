@@ -12,7 +12,7 @@ public class PrimeChecker {
         }
         if (i == num && num > 1 ) {
             System.out.println("Это простое число.");
-        } else if (num <= 1) {
+        } else if (num <= 1) { 
             System.out.println("Это и не простое, и не составное число.");
         } else {
             System.out.println("Это составное число.");
