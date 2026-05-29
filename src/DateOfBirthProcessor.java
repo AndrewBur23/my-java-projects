@@ -22,11 +22,9 @@ public class DateOfBirthProcessor {
                 System.out.println(age.getDays() + " дней");
                 break;
             } catch (DateTimeException e) {
-                System.err.println("Ошибка! Введена несуществующая дата");
+                System.err.println("Ошибка! Введена несуществующая дата рождения");
             }
         }
         input.close();
     }
 }
-
-//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
