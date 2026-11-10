@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
+
 public class BubbleSortX2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -26,7 +27,7 @@ public class BubbleSortX2 {
                 } else {
                     weightNext = arr[j + 1];
                 }
-                if (weightJ > weightNext ) {
+                if (weightJ > weightNext) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;

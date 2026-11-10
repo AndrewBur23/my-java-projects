@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class Bibliography {
     public static void main(String[] args) {
         ArrayList<String> books = new ArrayList<>();
@@ -12,11 +13,11 @@ public class Bibliography {
         authors.add("Пушкин");
         authors.add("Лермонтов");
         authors.add("Толстой");
-        for (String a : authors ) {
-            System.out.println("Книги " + a + ": " );
-            for(String b : books) {
-                if(b.contains(a)) {
-                    System.out.println("- " + b );
+        for (String a : authors) {
+            System.out.println("Книги " + a + ": ");
+            for (String b : books) {
+                if (b.contains(a)) {
+                    System.out.println("- " + b);
                 }
             }
         }

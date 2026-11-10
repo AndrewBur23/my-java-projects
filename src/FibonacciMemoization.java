@@ -2,9 +2,9 @@ public class FibonacciMemoization {
     public static long[] cache;
 
     public static void main(String args[]) {
-            int n = 59;
-            long result = optimizedFibonacci(n);
-            System.out.println("Число Фибоначчи " + n + " - это " + result );
+        int n = 59;
+        long result = optimizedFibonacci(n);
+        System.out.println("Число Фибоначчи " + n + " - это " + result);
     }
 
     public static long optimizedFibonacci(int n) {

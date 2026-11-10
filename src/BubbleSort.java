@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Сколько чисел будет в вашем массиве? ");
@@ -16,10 +16,10 @@ public class BubbleSort {
         }
 
         for (int b = 0; b < array.length - 1; b++) { // проходим по массиву (количество)
-            for (int c = 0; c < array.length - 1 - b; c++ ) { // сравниваем соседей
+            for (int c = 0; c < array.length - 1 - b; c++) { // сравниваем соседей
                 if (array[c] > array[c + 1]) { // если левое больше правого
                     int yacheika = array[c]; // кидаем левое в ячейку
-                    array[c] = array [c + 1]; // правое вперед
+                    array[c] = array[c + 1]; // правое вперед
                     array[c + 1] = yacheika; // левое вытащили и в конец
                 }
             }

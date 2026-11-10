@@ -1,8 +1,10 @@
 import java.util.Scanner;
+
 public class CharMerger {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        theMain_cycle: while (true) {
+        theMain_cycle:
+        while (true) {
             StringBuilder chars = new StringBuilder();
             while (true) {
                 System.out.println("Введите первый символ (или exit для выхода): ");

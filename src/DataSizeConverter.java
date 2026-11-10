@@ -1,7 +1,8 @@
 import java.util.Scanner;
+
 public class DataSizeConverter {
     public static void main(String[] args) {
-        Scanner input =  new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("Введите значение в гигабайтах: (или 0 для выхода) ");
             if (!input.hasNextLong()) {
@@ -10,10 +11,10 @@ public class DataSizeConverter {
                 continue;
             }
             long gb = input.nextLong();
-            if (gb == 0 ) {
+            if (gb == 0) {
                 break;
             }
-            if (gb < 0 ) {
+            if (gb < 0) {
                 System.err.println("Ошибка! Вводите положительное число.");
                 continue;
             }
